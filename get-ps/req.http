@@ -1,0 +1,7 @@
+#@baseUrl = http://localhost:7071/api
+@baseUrl = https://afs-ps-mapl.azurewebsites.net/api
+
+get {{baseUrl}}/get-ps?name=Jan
+
+###
+get {{baseUrl}}/get-ps?name=Maciej
